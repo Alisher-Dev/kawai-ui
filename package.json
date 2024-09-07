@@ -30,21 +30,21 @@
     }
   },
   "prettier": {
-    "printWidth": 80,
+    "printWidth": 120,
+    "tabWidth": 2,
     "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
+    "singleQuote": false
   },
-  "name": "your-package-name",
-  "author": "wali ahmad",
-  "module": "dist/your-package-name.esm.js",
+  "name": "kawai-ui",
+  "author": "Alisher and Jamshid",
+  "module": "dist/kawai-ui.esm.js",
   "size-limit": [
     {
-      "path": "dist/your-package-name.cjs.production.min.js",
+      "path": "dist/kawai-ui.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/your-package-name.esm.js",
+      "path": "dist/kawai-ui.esm.js",
       "limit": "10 KB"
     }
   ],
